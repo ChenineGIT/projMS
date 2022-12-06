@@ -1,0 +1,94 @@
+{
+  "prof": {
+    "idp1": { "name": "NameP1", "matier": {"res":{"c": false, "tp": false}} , "Reserved":false },
+    "idp2": { "name": "NameP2", "matier":  {"bda":{"c": false}} , "Reserved":false},
+    "idp3": { "name": "NameP3", "matier":  {"bda":{"tp": false,"td": false}}, "Reserved":false },
+    "idp4": { "name": "NameP4", "matier":  {"sec":{"c": false,"tp": false,"td": false}}, "Reserved":false },
+    "idp5": { "name": "NameP5", "matier":  {"seps":{"c":false,"tp":false}}, "Reserved":false },
+    "idp6": { "name": "NameP6", "matier":  {"se":{"c":false,"tp":false,"td":false}}, "Reserved":false },
+    "idp7": { "name": "NameP7", "matier":  {"ihm":{"c":false,"tp":false}} , "Reserved":false},
+    "idp8": { "name": "NameP8", "matier":  {"pl":{"c":false,"td":false}} , "Reserved":false},
+    "idp9": { "name": "NameP9", "matier":  {"ASD":{"c":false}} , "Reserved":false},
+    "idp10": { "name": "NameP10", "matier": {"ASD":{"td":false,"tp":false}} , "Reserved":false},
+    "idp11": { "name": "NameP11", "matier": {"mn":{"c":false,"td":false}} , "Reserved":false},
+    "idp12": { "name": "NameP12", "matier": {"tg":{"c":false,"td":false}}, "Reserved":false }
+  },
+  "group": {
+    "idg1": {
+      "name": "M1_ASR__G1",
+      "namber": 30,
+      "matier": [
+        { "res": { "c": false, "tp": false } },
+        { "bda": { "c": false, "td": false, "tp": false } },
+        { "seps": { "c": false} }
+      ],
+      "Reserved":false,
+      "termin":false
+    },
+    "idg2": {
+      "name": "M1_ASR__G2",
+      "namber": 35,
+      "matier": [
+        { "res": { "c": false, "tp": false } },
+        { "bda": { "c": false, "td": false, "tp": false } },
+        { "seps": { "c": false} }
+      ],
+      "Reserved":false,
+      "termin":false
+    },
+    "idg3": {
+      "name": "L3_G1",
+      "namber": 29,
+      "matier": [
+        { "se": { "c": false, "td": false, "tp": false } },
+        { "pl": { "c": false, "td": false } },
+        { "ihm": { "c": false } }
+      ],
+      "Reserved":false,
+      "termin":false
+    },
+    "idg4": {
+      "name": "L3_G2",
+      "namber": 25,
+      "matier": [
+        { "se": { "c": false, "td": false, "tp": false } },
+        { "pl": { "c": false, "td": false } },
+        { "ihm": { "c": false } }
+      ],
+      "Reserved":false,
+      "termin":false
+    },
+    "idg5": {
+      "name": "L2_G1",
+      "namber": 34,
+      "matier": [
+        { "ASD": { "c": false, "td": false, "tp": false } },
+        { "mn": { "c": false, "tp": false } },
+        { "tg": { "c": false } }
+      ],
+      "Reserved":false,
+      "termin":false
+    },
+    "idg6": {
+      "name": "L2_G2",
+      "namber": 25,
+      "matier": [
+        { "ASD": { "c": false, "td": false, "tp": false } },
+        { "mn": { "c": false, "tp": false } },
+        { "tg": { "c": false } }
+      ],
+      "Reserved":false,
+      "termin":false
+    }
+  },
+  "class": {
+    "id1": { "name": "anfi1", "cpacity": 80, "Reserved": false, "type": "anfi" ,"somCapaciti": 0,"CurrentModule":""},
+    "id2": { "name": "anfi2", "cpacity": 90, "Reserved": false, "type": "anfi","somCapaciti": 0, "CurrentModule":""},
+    "id3": { "name": "A", "cpacity": 30, "Reserved": false, "type": "c" },
+    "id4": { "name": "B", "cpacity": 25, "Reserved": false, "type": "c" },
+    "id5": { "name": "C", "cpacity": 35, "Reserved": false, "type": "c" },
+    "id6": { "name": "E", "cpacity": 35, "Reserved": false, "type": "tp" },
+    "id7": { "name": "F", "cpacity": 25, "Reserved": false, "type": "tp" },
+    "id10": { "name": "G", "cpacity": 25, "Reserved": false, "type": "tp" }
+  }
+}
